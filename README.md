@@ -32,7 +32,9 @@ User applications may implement a variety of high level algorithms in terms of l
 * MOD (via repeated SUB): Remainder of A with B
 * EQU (via XOR): Equality of A with B
 * LT (via EQU, XOR, SUB): Whether A is less than B
+* LTE (via OR, LT): Whether A is less than or equal to B
 * GT (via EQU, XOR, SUB): Whether A is greater than B
+* GTE (via OR, GT): Whether A is greater than or equal to B
 * RST (via XOR): Reset A to zero
 * SWP (via RST, XOR): Swap values A and B.
 * FOR (via repeated SUB 2): Loop of A/2 iterations. Supply odd A to enable infinite loops.
