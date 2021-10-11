@@ -16,6 +16,7 @@ FreeBSD
 * Subtraction (via ADD with negative values)
 * Multiplication (via repeated ADD)
 * Division (via repeated subtraction)
+* Modulus (via repeated subtraction)
 * Equality (via XOR)
 * Anything (via NAND)
 
