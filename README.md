@@ -55,6 +55,7 @@ User applications may implement a variety of high level algorithms by composing 
 * SRT (via FOR, SWP): Sort elements in a series.
 * SUM (via FOR, ADD): Sum elements in a series.
 * AVG (via DIV, SUM): Arithmetic average elements in a series.
+* RDM (via CPY A): Sample input source A for random data.
 * RDR (via FOR, CPY): Render image onto a frame buffer.
 * UTM (via NAND): Universal Turning Machine.
 
