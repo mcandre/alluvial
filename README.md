@@ -19,6 +19,8 @@ FreeBSD
 
 ## Extensions
 
+User applications may implement a variety of complex algorithms in terms of the core operators.
+
 * INC (via ADD with 1): Increment A
 * DEC (via ADD with -1): Decrement A
 * SUB (via ADD with negative values): Difference of A with B
@@ -28,6 +30,8 @@ FreeBSD
 * EQU (via XOR): Equality of A with B
 * RST (via XOR): Reset A to zero
 * FOR (via repeated subtraction): Finite loop of A iterations
+* SUM (via repeated ADD): Summation of a multitude of elements
+* AVG (via SUM with DIV): Arithmetic average of a multitude of elements
 * UTM (via NAND): Universal Turning Machine
 
 # WARNING
