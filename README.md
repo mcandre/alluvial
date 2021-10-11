@@ -30,7 +30,7 @@ User applications may implement a variety of high level algorithms in terms of l
 * EQU (via XOR): Equality of A with B
 * RST (via XOR): Reset A to zero
 * FOR (via repeated SUB): Finite loop of A iterations
-* SUM (via repeated ADD): Summation of a multitude of elements
+* SUM (via repeated ADD): Summation of elements in a series
 * AVG (via SUM with DIV): Arithmetic average of a multitude of elements
 * UTM (via NAND): Universal Turning Machine
 
