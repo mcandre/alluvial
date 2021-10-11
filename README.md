@@ -6,13 +6,19 @@
 
 FreeBSD
 
-# CAPABILITIES
+# FEATURES
 
 * 8-bit argument width
-* Formats: Unsigned or Signed (Two's Complement)
+* Format: Unsigned or Signed (Two's Complement)
+
+## Operators
+
 * ADD
 * XOR
 * NAND
+
+## Applications
+
 * Increment (via ADD with 1)
 * Decrement (via ADD with -1)
 * Subtraction (via ADD with negative values)
