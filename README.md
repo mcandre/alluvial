@@ -8,7 +8,7 @@ FreeBSD
 
 # FEATURES
 
-* 8-bit argument width
+* 8-bit integer I/O
 * Format: Unsigned or Signed (Two's Complement)
 
 # CORE OPERATORS
