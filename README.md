@@ -25,11 +25,11 @@ User applications may implement a variety of complex algorithms in terms of the 
 * DEC (via ADD with -1): Decrement A
 * SUB (via ADD with negative values): Difference of A with B
 * MUL (via repeated ADD): Product of A with B
-* DIV (via repeated subtraction): Quotient of A with B
-* MOD (via repeated subtraction): Remainder of A with B
+* DIV (via repeated SUB): Quotient of A with B
+* MOD (via repeated SUB): Remainder of A with B
 * EQU (via XOR): Equality of A with B
 * RST (via XOR): Reset A to zero
-* FOR (via repeated subtraction): Finite loop of A iterations
+* FOR (via repeated SUB): Finite loop of A iterations
 * SUM (via repeated ADD): Summation of a multitude of elements
 * AVG (via SUM with DIV): Arithmetic average of a multitude of elements
 * UTM (via NAND): Universal Turning Machine
