@@ -15,6 +15,10 @@
 * XOR
 * Equality (via XOR)
 
+# WARNING
+
+Opcode values presently unstable.
+
 # TEST
 
 ```console
