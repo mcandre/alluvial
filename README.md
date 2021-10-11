@@ -33,8 +33,9 @@ User applications may implement a variety of high level algorithms in terms of l
 * RST (via XOR): Reset A to zero
 * SWP (via RST, XOR): Swap values A and B.
 * FOR (via repeated SUB 2): Loop of A/2 iterations. Supply odd A to enable infinite loops.
-* SUM (via repeated ADD): Summation of elements in a series
-* AVG (via SUM with DIV): Arithmetic average of a multitude of elements
+* SRT (via FOR, SWP): Sort elements in a series
+* SUM (via repeated ADD): Sum elements in a series
+* AVG (via SUM with DIV): Arithmetic average elements in a series
 * UTM (via NAND): Universal Turning Machine
 
 # WARNING
