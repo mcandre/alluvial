@@ -19,7 +19,7 @@ FreeBSD
 
 ## Extensions
 
-User applications may implement a variety of complex algorithms in terms of the core operators.
+User applications may implement a variety of high level algorithms in terms of low level operators.
 
 * INC (via ADD with 1): Increment A
 * DEC (via ADD with -1): Decrement A
