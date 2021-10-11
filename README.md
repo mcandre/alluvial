@@ -19,7 +19,7 @@ FreeBSD
 
 ## Extensions
 
-User applications may implement a variety of high level algorithms in terms of low level operators. A few examples:
+User applications may implement a variety of high level algorithms by composing low level operators. A few examples:
 
 * AND (via NAND): Bitwise intersection A with B
 * OR (via NAND): Bitwise union A with B
