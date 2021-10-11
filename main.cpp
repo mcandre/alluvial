@@ -59,10 +59,24 @@ static void test_add_signed(Valluvial &top) {
     }
 }
 
+static void test_xor(Valluvial &top) {
+    top.op = Valluvial___024unit::Op::XOR;
+
+    for (int i = MIN_UNSIGNED; i <= MAX_UNSIGNED; i++) {
+        for (int j = MIN_UNSIGNED; j <= MAX_UNSIGNED; j++) {
+            top.a = i;
+            top.b = j;
+            top.eval();
+            assert(top.result == ((i ^ j) & MASK));
+        }
+    }
+}
+
 int main(int argc, char **argv) {
     Verilated::commandArgs(argc, argv);
     Valluvial top{"top"};
     test_add_unsigned(top);
     test_add_signed(top);
+    test_xor(top);
     return EXIT_SUCCESS;
 }

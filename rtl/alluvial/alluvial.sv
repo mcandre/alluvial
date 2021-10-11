@@ -1,6 +1,9 @@
 `include "rtl/alluvial/fulladder_chain.sv"
 
-typedef enum { ADD } Op /*verilator public*/;
+typedef enum {
+    ADD,
+    XOR
+} Op /*verilator public*/;
 
 module alluvial(input [31:0] op, [7:0] a, [7:0] b, output reg error, reg [7:0] result);
     reg [7:0] add_a,
@@ -15,6 +18,10 @@ module alluvial(input [31:0] op, [7:0] a, [7:0] b, output reg error, reg [7:0] r
             assign add_b = b;
             assign error = add_carry;
             assign result = add_sum;
+        end
+
+        XOR: begin
+            assign result = a ^ b;
         end
     endcase
 endmodule
