@@ -8,7 +8,8 @@
 
 # FEATURES
 
-* 8-bit unsigned or signed (two's complement)
+* 8-bit argument width
+* Formats: Unsigned or Signed (Two's Complement)
 * Addition
 * Subtraction (via adding with negative values)
 * XOR
