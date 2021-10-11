@@ -21,6 +21,9 @@ FreeBSD
 
 User applications may implement a variety of high level algorithms in terms of low level operators. A few examples:
 
+* AND (via NAND): Bitwise intersection A with B
+* OR (via NAND): Bitwise union A with B
+* NOT (via NAND): Bitwise inverse A
 * INC (via ADD with 1): Increment A
 * DEC (via ADD with -1): Decrement A
 * SUB (via ADD with negative values): Difference of A with B
