@@ -28,16 +28,27 @@ User applications may implement a variety of high level algorithms by composing 
 * INC (via ADD 1): Increment A.
 * DEC (via ADD -1): Decrement A.
 * SUB (via ADD with negative values): Difference of A with B.
+* ATI (via SUB): Parse decimal ASCII digit A.
+* ITA (via ADD): Format A as decimal ASCII digit.
+* CPY (via XOR 0): Copy B.
+* ABS (via XOR): Absolute value of A.
+* IF (via XOR): Yield non-zero A, or else yield B.
 * FOR (via SUB _ 2): Loop of A/2 iterations. Supply odd A to enable infinite loops.
 * MUL (via FOR, ADD): Product of A with B.
 * DIV (via FOR, SUB): Quotient of A with B.
 * MOD (via FOR, SUB): Remainder of A with B.
-* EQU (via XOR): Equality of A with B.
-* LT (via EQU, XOR, SUB): Whether A is less than B.
-* LTE (via OR, LT): Whether A is less than or equal to B.
-* GT (via EQU, XOR, SUB): Whether A is greater than B.
-* GTE (via OR, GT): Whether A is greater than or equal to B.
+* EXP (via FOR, MUL): Exponential of A to the B power.
+* LOG (via FOR, DIV): Logarithm of A base B.
+* SLL (via MUL _ 2): Shift A logical left B places.
+* SLR (via DIV _ 2): Shift A logical right B places.
+* HTI (via SUB, IF, XOR): Parse hexadecimal digit A.
+* ITH (via ADD, IF, XOR): Format A as hexadecimal digit.
 * SGN (via FOR, GT): -1, 0, +1 sign of A.
+* EQU (via XOR): Equality of A with B.
+* LT (via SGN, SUB): Whether A is less than B.
+* LTE (via SGN, SUB): Whether A is less than or equal to B.
+* GT (via SGN, SUB): Whether A is greater than B.
+* GTE (via SGN, SUB): Whether A is greater than or equal to B.
 * RST (via XOR): Reset A to zero.
 * SWP (via RST, XOR): Swap values A and B.
 * FCT (via FOR, MOD): Factor A into prime components.
