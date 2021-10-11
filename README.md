@@ -11,7 +11,7 @@ FreeBSD
 * 8-bit argument width
 * Format: Unsigned or Signed (Two's Complement)
 
-## Operators
+## Operations
 
 * ADD
 * XOR
