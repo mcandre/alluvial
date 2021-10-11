@@ -13,6 +13,8 @@ FreeBSD
 * ADD
 * XOR
 * NAND
+* Increment (via ADD with 1)
+* Decrement (via ADD with -1)
 * Subtraction (via ADD with negative values)
 * Multiplication (via repeated ADD)
 * Division (via repeated subtraction)
