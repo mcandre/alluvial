@@ -10,6 +10,7 @@ FreeBSD
 
 * 8-bit integer I/O
 * Format: Unsigned or Signed (Two's Complement)
+* Closed instruction space (defaults to NAND for unimplemented operator values)
 
 # CORE OPERATORS
 
