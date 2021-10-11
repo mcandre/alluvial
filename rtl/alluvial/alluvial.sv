@@ -2,7 +2,8 @@
 
 typedef enum {
     ADD,
-    XOR
+    XOR,
+    NAND
 } Op /*verilator public*/;
 
 module alluvial(input [31:0] op, [7:0] a, [7:0] b, output reg error, reg [7:0] result);
@@ -23,5 +24,7 @@ module alluvial(input [31:0] op, [7:0] a, [7:0] b, output reg error, reg [7:0] r
         XOR: begin
             assign result = a ^ b;
         end
+
+        default: result = ~(a & b);
     endcase
 endmodule
