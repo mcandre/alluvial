@@ -36,6 +36,7 @@ User applications may implement a variety of high level algorithms by composing 
 * LTE (via OR, LT): Whether A is less than or equal to B
 * GT (via EQU, XOR, SUB): Whether A is greater than B
 * GTE (via OR, GT): Whether A is greater than or equal to B
+* SGN (via FOR, GT): -1, 0, +1 sign of A
 * RST (via XOR): Reset A to zero
 * SWP (via RST, XOR): Swap values A and B.
 * FCT (via FOR, MOD): Factor A into prime components.
