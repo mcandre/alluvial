@@ -26,6 +26,7 @@ FreeBSD
 * Division (via repeated subtraction)
 * Modulus (via repeated subtraction)
 * Equality (via XOR)
+* Finite loops (via repeated subtraction)
 * Anything (via NAND)
 
 # WARNING
