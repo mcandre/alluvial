@@ -36,7 +36,7 @@ User applications may implement a variety of high level algorithms by composing 
 * FOR (via SUB A 2): Loop of A/2 iterations. Supply odd A to enable infinite loops.
 * MUL (via FOR, ADD): Product of A with B.
 * DIV (via FOR, SUB): Quotient of A with B.
-* MOD (via FOR, SUB): Remainder of A with B.
+* REM (via FOR, SUB): Remainder of A with B.
 * EXP (via FOR, MUL): Exponential of A to the B power.
 * LOG (via FOR, DIV): Logarithm of A base B.
 * SLL (via MUL A 2): Shift A logical left B places.
