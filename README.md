@@ -59,6 +59,8 @@ User applications may implement a variety of high level algorithms by composing 
 * SGN (via FOR, GT): -1, 0, +1 sign of A.
 * SLL (via MUL A 2): Shift A logical left B places.
 * SLR (via DIV A 2): Shift A logical right B places.
+* ROL (via XOR, SLL): Rotate A left B places.
+* ROR (via XOR, SLR): Rotate A right B places.
 * SRT (via FOR, NTH, SWP): Sort elements in a series.
 * SQT (via FOR): Square root of A.
 * SUB (via ADD with negative values): Difference of A with B.
