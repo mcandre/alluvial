@@ -52,6 +52,8 @@ User applications may implement a variety of high level algorithms by composing 
 * NOT (via NAND): Bitwise inverse A.
 * NTH (via FOR, IF): Retrieve nth element in a series.
 * OR (via NAND): Bitwise union A with B.
+* PDL (via FOR, XOR): Pad A left to B total places.
+* PDR (via FOR, XOR): Pad A right to B total places.
 * RDM (via CPY A): Sample input source A for random data.
 * RDR (via FOR, CPY): Render image onto a frame buffer.
 * REM (via FOR, SUB): Remainder of A with B.
