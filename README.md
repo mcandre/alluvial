@@ -63,6 +63,7 @@ User applications may implement a variety of high level algorithms by composing 
 * SLR (via DIV A 2): Shift A logical right B places.
 * ROL (via XOR, SLL): Rotate A left B places.
 * ROR (via XOR, SLR): Rotate A right B places.
+* SH2 (via FOR, ITH, PADR, SLL, SLR, ROL, ROR): SHA-2(56) cryptographic hash.
 * SRT (via FOR, NTH, SWP): Sort elements in a series.
 * SQT (via FOR): Square root of A.
 * SUB (via ADD with negative values): Difference of A with B.
