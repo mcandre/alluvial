@@ -62,6 +62,7 @@ User applications may implement a variety of high level algorithms by composing 
 * SQT (via FOR): Square root of A.
 * SUB (via ADD with negative values): Difference of A with B.
 * SUM (via FOR, ADD): Sum elements in a series.
+* SVE (via FOR, FCT): Generate prime sieve.
 * SWP (via RST, XOR): Swap values A and B.
 * UTM (via NAND): Universal Turning Machine.
 
