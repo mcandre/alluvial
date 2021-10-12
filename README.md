@@ -52,9 +52,13 @@ User applications may implement a variety of high level algorithms by composing 
 * RST (via XOR): Reset A to zero.
 * SWP (via RST, XOR): Swap values A and B.
 * FCT (via FOR, MOD): Factor A into prime components.
-* SRT (via FOR, SWP): Sort elements in a series.
+* NTH (via FOR, IF): Retrieve nth element in a series.
+* FRQ (via FOR, NTH, ADD): Generate frequency map for occurences of elements in a series.
+* SRT (via FOR, NTH, SWP): Sort elements in a series.
 * SUM (via FOR, ADD): Sum elements in a series.
 * AVG (via DIV, SUM): Arithmetic average elements in a series.
+* MED (via NTH, SRT): Median element in a series.
+* MDE (via NTH, SRT, FRQ): Mode element in a series.
 * RDM (via CPY A): Sample input source A for random data.
 * RDR (via FOR, CPY): Render image onto a frame buffer.
 * UTM (via NAND): Universal Turning Machine.
