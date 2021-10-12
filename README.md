@@ -26,6 +26,7 @@ User applications may implement a variety of high level algorithms by composing 
 * AND (via NAND): Bitwise intersection A with B.
 * ATI (via SUB): Parse decimal ASCII digit A.
 * AVG (via DIV, SUM): Arithmetic average elements in a series.
+* CAT (via SWP): Concatenate A with B.
 * CPY (via XOR A 0): Copy A.
 * DEC (via ADD A -1): Decrement A.
 * DIV (via FOR, SUB): Quotient of A with B.
