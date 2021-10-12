@@ -35,6 +35,7 @@ User applications may implement a variety of high level algorithms by composing 
 * FCT (via FOR, MOD): Factor A into prime components.
 * FOR (via SUB A 2): Loop of A/2 iterations. Supply odd A to enable infinite loops.
 * FRQ (via FOR, NTH, ADD): Generate frequency map for occurences of elements in a series.
+* GCD (via FOR): Greatest common denominator of A and B.
 * GT (via SGN, SUB): Whether A is greater than B.
 * GTE (via SGN, SUB): Whether A is greater than or equal to B.
 * HTI (via SUB, IF, XOR): Parse hexadecimal digit A.
